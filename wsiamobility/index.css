@@ -1,0 +1,174 @@
+/**{}[]**/ 
+.homebutton{
+	background: transparent;
+	border: none;
+}
+
+body{
+	color: white;
+	color: rgba(230,230,230,1);
+	background: black;
+}
+
+@media screen and (max-width: 400px) {
+	body{
+		max-width: 400px;
+		overflow: hidden;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+	body{
+		max-width: 600px;
+		overflow: hidden;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	body{
+		max-width: 800px;
+		overflow: hidden;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	body{
+		max-width: 1000px;
+		overflow: hidden;
+
+	}
+}
+@media screen and (min-width: 760px) {
+	.navigationbar{
+	display:inline-block;
+	}
+}
+.w3-navbar{
+	border:none!important;	
+	}
+
+.redhr{
+	border-color: rgba(255,240,240,1);
+}
+
+hr{
+	margin-bottom:100px;
+}
+@media screen and (min-width: 760px) {
+	video{		
+	width: 47%;
+	height: 350px;
+	margin-top: 0px!important;
+	}
+	hr{
+	margin-bottom:0px;
+	}
+	.mpanel{
+	height: 200px;
+	}
+	.mpanel h2{
+	margin-top:50px;
+	}
+}
+.mpanel{
+	background: rgba(220,220,220,1)!important;
+	}
+.NewSlideOption{
+	display:none;
+	height: auto;
+	width: 70%;	
+	max-height: 600px;
+}	
+video{
+    height: auto;
+    width:70%;
+    max-height: 600px;
+	}
+.mytab {
+	display:none;
+}
+.highlighted {
+	background: rgba(230,230,230,1);
+}
+.modalli {
+	color:black; list-style: initial;
+}
+#amazingaudioplayer-1{
+	position: fixed!important;
+	top:95.5%;
+}
+th{
+	height: 20px;
+	width:40px;
+	border: solid 1px rgba(150,150,150,1);
+}
+table{
+	margin:0;
+	padding: 0;
+	border:0;
+}
+tr{
+    padding:5px;
+    background: rgba(220,220,230,1);
+}
+
+.informationsection{
+   background:white;
+   height:700px;
+   width:70%
+}
+
+@media screen and (max-width: 1100px) {
+   .informationsection{
+    height:850px;
+}
+	.informationsection2{
+    height:650px;
+}
+}
+@media screen and (max-width: 800px) {
+   .informationsection{
+    height:950px;
+}
+	.informationsection2{
+    height:750px;
+}
+}
+@media screen and (max-width: 700px) {
+   .informationsection{
+    height:1100px;
+}
+	.informationsection2{
+    height:850px;
+}
+}
+@media screen and (max-width: 500px) {
+   .informationsection{
+    height:1750px;
+}
+	.informationsection2{
+    height:1000px;
+}
+}
+@media screen and (max-width: 365px) {
+   .informationsection{
+    height:2100px;
+}
+	.informationsection2{
+    height:1250px;
+}
+}
+
+.underwritingbutton{
+   padding:10px;
+   font-size:1.5em;
+   border-radius:0px;
+   color:white;
+    border:2px solid transparent;
+   background: rgb(100,100,100);
+}
+.underwritingbutton:hover{
+	background: crimson;
+	cursor: pointer;
+	}
